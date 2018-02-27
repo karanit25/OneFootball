@@ -18,7 +18,7 @@ public class AppiumTest extends AndroidSetup {
     }
 
     @Test
-    public void falseLoginTest() throws InterruptedException {
+    public void oneFootballSearch()  {
         new SearchPage(driver).searchFunction();
     }
 
